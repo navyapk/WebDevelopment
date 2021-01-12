@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="bg-img offset-md-3">
-  <form class="container" action="test.html" method="POST" onsubmit=" return validate()">
+  <form class="container" action="regi.php" method="POST" >
     <h2>Registration</h2><br>
     <div class="form-group row">
       <label for="fname" class="col-md-2 col-form-label"><b>First Name</b></label>
@@ -40,7 +40,7 @@
     <div class="form-group row">
       <label  class="col-md-2 col-form-label"><b>Password</b></label>
       <div class="col-md-6">
-    <input class="form-control password" type="password" placeholder="Password" id="password" required>
+    <input class="form-control password" type="password" placeholder="Password" name="pass" id="password" required>
     </div>
     </div>
     <div class="form-group row">
@@ -62,7 +62,7 @@
     </div>
     <div class="form-group row">
         <div class="offset-md-2 col-md-10">
-            <button type="submit"  class="btn btn-success button">Register</button>
+            <button type="submit"  class="btn btn-success button"><a href="login.html">Register</a></button>
         </div>
     </div>
   

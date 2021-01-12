@@ -4,3 +4,10 @@
 img{
     padding: 3%;
 }
+
+.nav-item{
+    float: right;
+}
+nav{
+    background-color: black;
+}
